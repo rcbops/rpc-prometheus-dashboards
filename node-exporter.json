@@ -19926,7 +19926,7 @@
         "multi": false,
         "name": "node",
         "options": [],
-        "query": "label_values(node_uname_info{job=\"node-exporters\"}, instance)",
+        "query": "label_values(node_uname_info{job=\"node-exporter\"}, instance)",
         "refresh": 1,
         "sort": 1,
         "tagValuesQuery": "",
